@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+canvas {
+  width: 800px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  position: relative;
+}
+
+#canvasName {
+  display: flex;
+  justify-content: center;
+}
+
+#clearButton {
+  margin-left: 75%;
+  margin-top: 1%;
+}
+
+#clearButton > button {
+  padding: 1%;
+}
