@@ -65,7 +65,7 @@ function handleMouseUp() {
   isDragging = false;
   canvas.style.cursor = "default";
   if (isEmpty) {
-    const randomColor = getRandomColor();
+    let randomColor = getRandomColor();
     ctx.fillStyle = randomColor;
     ctx.fill();
     aTriangle.push({
